@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <context-param>
+    <description>Location to store uploaded files</description>
+    <param-name>images</param-name>
+    <param-value>/images</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>registerUserServlet</servlet-name>
+    <servlet-class>webapp.controller.registerUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>webapp.controller.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addCommentByBookIdServlet</servlet-name>
+    <servlet-class>webapp.controller.addCommentByBookIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addCommentByBookIdServlet</servlet-name>
+    <url-pattern>/addComment</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>addCommentServlet</servlet-name>
+    <servlet-class>webapp.controller.addCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addCommentServlet</servlet-name>
+    <url-pattern>/addcomment</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>viewCommentServlet</servlet-name>
+    <servlet-class>webapp.controller.viewCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>accountSettingsServlet</servlet-name>
+    <servlet-class>webapp.controller.accountSettingsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>accountSettingsServlet</servlet-name>
+    <url-pattern>/accountSettingsServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BookManager</servlet-name>
+    <servlet-class>webapp.model.BookManager</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Book</servlet-name>
+    <servlet-class>webapp.model.Book</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookManager</servlet-name>
+    <url-pattern>/BookManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Book</servlet-name>
+    <url-pattern>/Book</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>logoutServlet</servlet-name>
+    <servlet-class>webapp.controller.logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logoutServlet</servlet-name>
+    <url-pattern>/logoutServlet</url-pattern>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>getFavoriteBooksServlet</servlet-name>
+    <servlet-class>webapp.controller.getFavoriteBooksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getFavoriteBooksServlet</servlet-name>
+    <url-pattern>/getFavoriteBooksServlet</url-pattern>
+    <url-pattern>/favorite</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>accountSettingsViewServlet</servlet-name>
+    <servlet-class>webapp.controller.accountSettingsViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>accountSettingsViewServlet</servlet-name>
+    <url-pattern>/accountSettingsViewServlet</url-pattern>
+    <url-pattern>/accountsettings</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>getRecommendBookServlet</servlet-name>
+    <servlet-class>webapp.controller.getRecommendBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getRecommendBookServlet</servlet-name>
+    <url-pattern>/getRecommendBookServlet</url-pattern>
+    <url-pattern>/recommend</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>viewBookServlet</servlet-name>
+    <servlet-class>webapp.controller.viewBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewBookServlet</servlet-name>
+    <url-pattern>/viewBookServlet</url-pattern>
+    <url-pattern>/viewbook</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>getRecommendBookServlet</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+    <description>Resource reference to a factory for javax.mail.Session
+    instances that may be used for sending electronic mail
+    messages, preconfigured to connect to the appropriate
+    SMTP server.</description>
+    <res-ref-name>mail/Session</res-ref-name>
+    <res-type>javax.mail.Session</res-type>
+    <res-auth>Container</res-auth>
+    <res-sharing-scope>Shareable</res-sharing-scope>
+  </resource-ref>
+</web-app>

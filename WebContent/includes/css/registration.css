@@ -1,0 +1,99 @@
+#monsters_content{
+    background-color: #7D92D6;
+    width: 740px;
+    margin: auto;
+    height: auto;
+    font-family: none !important;
+}
+#monsters_content #registration{
+    border: solid 10px #fff;
+    background: transparent url(../../includes/images/icon.jpg) no-repeat;
+    width: 620px;
+    height: 523px;
+    display: block;
+    margin: 50px;
+}
+#monsters_content #registration .success{
+    background: transparent url(../../includes/images/reg_ballons.png) no-repeat;
+    width: 215px;
+    height: 235px;
+    display: block;
+}
+#monsters_content #registration #ballons_left{
+    position: relative;
+    left: -85px;
+    top: -5px;
+}
+#monsters_content #registration #ballons_right{
+    position: relative;
+    left: 482px;
+    top: -251px;
+}
+#monsters_content #registration form{
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 142px;
+    color: #22387D;
+}
+#monsters_content #registration form p{
+    margin: 2px 0;
+}
+#monsters_content #registration form p#header_message{
+    padding: 0 0 25px 70px;
+    font-size: 16px;
+    font-family: Comic Sans MS;
+    color: #22387D;
+}
+#monsters_content #registration form p#error_message{
+    color: #ff0000;
+    padding-left: 75px;
+}
+#monsters_content #registration label{
+    text-align: right;
+    width: 110px;
+    display: block;
+    float: left;
+    margin: 0 5px 0 5px;
+    font-size: 12px;
+}
+#monsters_content #registration label.error_label{
+    color: #ff0000;
+    margin-left: -110px;
+}
+#monsters_content #registration input.text_area{
+    font-size: 10px;
+    width: 145px;
+    border: 1px solid #000;
+}
+#monsters_content #registration input.button{
+    width: 70px;
+    height: 30px;
+    background: transparent url(../../includes/images/search_button.png);
+    color: #ffff00;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    left: 134px;
+    top: 25px;
+}
+#monsters_content #registration input.button:hover{
+    color: #fff;
+}
+#monsters_content #registration #success_exp{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Comic Sans MS;
+    color: #22387D;
+}
+#monsters_content #registration #success_exp p{
+    margin: 2px;
+}
+#monsters_content #registration #success_exp p.first{
+    font-size: 18px;
+}
+#monsters_content #footer ul{
+    width: 740px;
+}

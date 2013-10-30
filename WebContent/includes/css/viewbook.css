@@ -1,0 +1,92 @@
+#monsters_content #body #right #recipe_actions{
+    margin: 15px 20px;
+}
+#monsters_content #body #right #recipe_actions a{
+    text-decoration: none;
+    float: right;
+}
+
+#monsters_content #body #right #recipe_actions a span{
+    visibility: hidden;
+}
+
+
+#monsters_content #body #right #recipe_actions #comment{
+    display: block;
+    background: transparent url(../../includes/images/comment_icon.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+#monsters_content #body #right .view_recipe{
+    padding: 0;
+    margin: 0;
+    width: 680px;
+    background-color: #fff;
+}
+
+#monsters_content #body #right .view_recipe img{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #898989;
+    float: left;
+}
+
+#monsters_content #body #right .view_recipe .title{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #233980;
+}
+
+#monsters_content #body #right .view_recipe .rating{
+   
+    width: 480px;
+    margin-left: 175px;
+    text-align: justify;
+    font-size: 12px;
+    text-decoration: none;
+    color: #051A4A;
+    font-style: italic;
+}
+
+#monsters_content #body #right .view_recipe .ingredients span,
+#monsters_content #body #right .view_recipe .directions span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #233980;
+}
+
+#monsters_content #body #right .view_recipe .directions{
+    width: 480px;
+    margin-left: 175px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+#monsters_content #body #right #comments ul{
+    background: #FBF6D3;
+    width: 620px;
+    padding: 30px;
+}
+
+#monsters_content #body #right #comments ul .image{
+    width: 80px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #898989;
+}
+
+#monsters_content #body #right #comments ul .posted_date{
+    width: 500px;
+    float: left;
+}
+
+#monsters_content #body #right #comments ul .owner_name{
+    width: 500px;
+    float: left;
+}
+
+#monsters_content #body #right #comments ul .comment_text{
+    clear: both;
+}

@@ -1,0 +1,30 @@
+#monsters_content{
+    background-color: #f0eea2;
+    width: 740px;
+    margin: auto;
+    height: auto;
+    font-family: none !important;
+}
+
+#monsters_content #logout{
+    border: solid 10px white;
+    background: transparent url(../../includes/images/icon.jpg) no-repeat;
+    width: 620px;
+    height: 523px;
+    display: block;
+    margin: 50px;
+}
+
+#monsters_content #logout p{
+    width: 120px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #22387D;
+    position: relative;
+    top: 210px;
+    left: 270px;
+}
+
+#monsters_content #footer ul{
+    width: 740px;
+}

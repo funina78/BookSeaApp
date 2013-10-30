@@ -1,0 +1,306 @@
+#monsters_content{
+    width: 940px;
+    margin: auto;
+    height: auto;
+    background-color: #506067; 
+    font-family: Arial;
+    font-size: 12px;
+}
+#monsters_content li{
+    list-style-type: none;
+}
+#monsters_content #header{
+    background-color: #fffcfe;
+    width: 940px;
+    height: 155px;
+    margin-top: 20px;
+}
+#monsters_content #header #logo{
+    background: transparent url(../../includes/images/books3.jpg) no-repeat;
+        text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 155px;
+    float: left;
+}
+#monsters_content #header #logo span{
+    visibility: hidden;
+}
+#monsters_content #header #search{
+    float: left;
+    width: 400px;
+    padding-top: 65px;
+}
+#monsters_content #header #search form{
+    font-size: 11px;
+}
+#monsters_content #header #search input.text_area{
+    width: 305px;
+}
+#monsters_content #header #search input.button{
+    width: 70px;
+    height: 30px;
+    background: transparent url(../../includes/images/search_button.png);
+    color: #ffff00;
+    font-size: 13px;
+    cursor: pointer;
+}
+#monsters_content #header #search input.button:hover{
+    color: #ffffff;
+}
+#monsters_content #header #user_status{
+    width: 240px;
+    float: right;
+    color: #22387d;
+    text-align: center;
+    padding-top: 5px;
+}
+#monsters_content #header #user_status p{
+    padding: 0;
+    margin: 0;
+    line-height: 12px;
+}
+#monsters_content #header #user_status #welcome_message{
+    font-size: 12px;
+}
+#monsters_content #header #user_status #welcome_message #username{
+    font-weight: bold;
+}
+#monsters_content #header #user_status #sign_out{
+    font-size: 10px;
+}
+#monsters_content #header #user_status input.text_area{
+    width: 75px;
+    font-size: 11px;
+}
+#monsters_content #header #user_status input.button{
+    background: url(../../includes/images/search_button.png) no-repeat transparent;
+    color: #ffff00;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+}
+#monsters_content #header #user_status input.button:hover{
+    color: #ffffff;
+}
+#monsters_content #header #user_status p#registration_message{
+    font-size: 11px;
+}
+
+#monsters_content #body.pagination{
+    width: 900px;
+    height: 1730px;
+    margin: 20px;
+    background-color: #b7c6f6; 
+}
+#monsters_content #body{
+    width: 900px;
+    height: 1275px;
+    margin: 20px;
+    background-color: #c5ccce; 
+}
+#monsters_content #body #left{
+    width: 200px;
+    float: left;
+}
+#monsters_content #body #right{
+    width: 700px;
+    float: right;
+}
+#monsters_content #body #basicmenu{
+    width: 200px;
+    height: 114px;
+    background-color: #23333a;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+#monsters_content #body #fullmenu{
+    width: 200px;
+    height: 218px;
+    background-color: #7d8589;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+#monsters_content #body .menu ul{
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+#monsters_content #body .menu li{
+    height: 40px;
+    width: 190px;
+    margin: 5px;
+    color: #28364d;
+    background-color: #e9e682;
+}
+#monsters_content #body .menu li a{
+    padding: 6px 20px;
+    width: 148px;
+    height: 30px;
+    margin: 1px;
+    color: #28364d;
+    background-color: #e9e682;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+#monsters_content #body .menu li a:hover{
+    background-color: #bac9fc;
+}
+#monsters_content #body .menu li .current{
+    color: #8d6b04;
+}
+#monsters_content #body .menu li .current:hover{
+    background-color: #92a8f3;
+}
+
+#monsters_content #body #right .recipe_list,
+#monsters_content #body #right .recipe_desc{
+    width: 690px;
+    color: #233980;
+}
+
+#monsters_content #body #right .recipe_list ul{
+    padding: 0;
+}
+#monsters_content #body #right .recipe_list li{
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    height: 163px;
+}
+#monsters_content #body #right .recipe_desc ul{
+    padding: 0;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    height: 450px;
+}
+
+#monsters_content #body #right .recipe_list li:hover{
+    background-color: #fbf6d3;
+}
+#monsters_content #body #right .recipe_list img,
+#monsters_content #body #right .recipe_desc img{
+    border: 1px solid #898989;
+    padding: 5px;
+    margin: 5px;
+}
+#monsters_content #body #right .recipe_list li p{
+    position: relative;
+    top: -170px;
+    padding: 0 10px 0px 175px;
+}
+#monsters_content #body #right .recipe_desc #tuna_recipe p{
+    position: relative;
+    padding: 0 10px 0px 175px;
+    top: -170px;
+} 
+#monsters_content #body #right .recipe_desc li .rating span{
+    font-size: 14px;
+    color: #ff9c00;
+    font-weight: bold;
+}
+#monsters_content #body #right .recipe_desc li .serv{
+    font-size: 13px;
+    font-weight: bold;
+}
+#monsters_content #body #right .recipe_desc li .ingr_title,
+#monsters_content #body #right .recipe_desc li .dir_title{
+    font-size: 14px;
+    font-weight: bold;
+}
+#monsters_content #body #right .recipe_desc li .ingr,
+#monsters_content #body #right .recipe_desc li .dir{
+    margin: 0 20px;
+}
+#monsters_content #body #right .recipe_list li .short_desc,
+#monsters_content #body #right .recipe_desc li .short_desc{
+    font-style: italic;
+}
+#monsters_content #body #right .recipe_list .title a{
+    font-size: 18px;
+    color: #125292;
+    text-decoration: none;
+}
+#monsters_content #body #right .recipe_desc .title a{
+    font-size: 26px;
+    color: #125292;
+    text-decoration: none;
+}
+#monsters_content #body #right .recipe_list .title a:hover,
+#monsters_content #body #right .recipe_desc .title a:hover{
+    color: #5b7997;
+    text-decoration: underline;
+}
+#monsters_content #body #right .recipe_desc .user_interaction{
+    width: 140px;
+    position: relative;
+    top: 15px;
+    left: 560px;
+}
+#monsters_content #body #right .recipe_desc .bookmark,
+#monsters_content #body #right .recipe_desc .rate,
+#monsters_content #body #right .recipe_desc .comment{
+    padding: 0 !important;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+#monsters_content #body #right .recipe_desc .comment{
+    background: transparent url(../../includes/images/comment_icon.png) no-repeat;
+}
+#monsters_content #body #right .recipe_desc .bookmark a,
+#monsters_content #body #right .recipe_desc .rate a,
+#monsters_content #body #right .recipe_desc .comment a{
+    visibility: hidden;
+}
+
+#monsters_content #body #right .recipe_list #pagination{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 525px;
+}
+#monsters_content #body #right .recipe_list #pagination li{
+    float: left;
+    width: 67px;
+    height: 28px;
+    background-color: #B7C6F6;
+    color: #125292;
+}
+#monsters_content #body #right .recipe_list #pagination li#prev{
+    text-align: right;
+}
+#monsters_content #body #right .recipe_list #pagination li#current{
+    font-weight: bold;
+    width: 20px;
+    color: #ffff00;
+    text-align: center;
+}
+#monsters_content #body #right .recipe_list #pagination li#next{
+    text-align: left;
+}
+#monsters_content #footer{
+    clear: both;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+#monsters_content #footer ul{
+    width: 940px;
+    padding: 0;
+    margin: 0;
+}
+#monsters_content #footer ul li{
+    display: inline;
+    width: 100px;
+}
+#monsters_content #footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}

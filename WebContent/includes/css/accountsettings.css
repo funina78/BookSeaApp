@@ -1,0 +1,100 @@
+#monsters_content #body{
+    height: 280px;
+}
+
+#monsters_content #body #right #account_settings{
+    padding: 0;
+    margin: 15px 0 0 0;
+    width: 680px;
+}
+
+#monsters_content #body #right #account_settings #tabs span{
+    visibility: hidden;
+}
+
+#monsters_content #body #right #account_settings #tabs div{
+    width: 340px;
+    float: left;
+    cursor: pointer;
+}
+
+#monsters_content #body #right #account_settings #tabs #password_tab.current,
+#monsters_content #body #right #account_settings #tabs #password_tab.current:hover{
+    background: transparent url(../../includes/images/change_password.png) no-repeat;
+    width: 340px;
+    height: 30px;
+    display: block;
+}
+
+#monsters_content #body #right #account_settings #tabs #password_tab{
+    background: transparent url(../../includes/images/password.png) no-repeat;
+    width: 340px;
+    height: 30px;
+    display: block;
+}
+
+#monsters_content #body #right #account_settings #tabs #password_tab:hover{
+    background: transparent url(../../includes/images/password_hover.png) no-repeat;
+}
+
+#monsters_content #body #right #account_settings #tabs #photo_tab.current,
+#monsters_content #body #right #account_settings #tabs #photo_tab.current:hover{
+    background: transparent url(../../includes/images/change_photo.png) no-repeat;
+    width: 340px;
+    height: 30px;
+    display: block;
+}
+
+#monsters_content #body #right #account_settings #tabs #photo_tab{
+    background: transparent url(../../includes/images/photo.png) no-repeat;
+    width: 340px;
+    height: 30px;
+    display: block;
+}
+
+#monsters_content #body #right #account_settings #tabs #photo_tab:hover{
+    background: transparent url(../../includes/images/photo_hover.png) no-repeat;
+}
+
+#monsters_content #body #right #account_settings #contents {
+    clear: both;
+    background: #fff;
+    padding: 20px 20px 40px 20px;
+}
+#monsters_content #body #right #account_settings #contents div{
+    display: none;
+}
+#monsters_content #body #right #account_settings #contents div.current{
+    display: block;
+}
+
+#monsters_content #body #right #account_settings #contents #password_content{
+    padding-left: 25px;
+}
+
+#monsters_content #body #right #account_settings #contents #password_content form{
+    width: 270px;
+}
+
+#monsters_content #body #right #account_settings #contents #photo_content img{
+    margin-left: 25px;
+    border: 1px solid #898989;
+}
+
+#monsters_content #body #right #account_settings #contents #photo_content form{
+    width: 330px;
+}
+
+#monsters_content #body #right #account_settings #contents p{
+    color: #4B60A6;
+    font-weight: bold;
+}
+
+#monsters_content #body #right #account_settings #contents form label{
+    color: #4B60A6;
+    font-weight: bold;
+}
+
+#monsters_content #body #right #account_settings #contents form input{
+    float: right;
+}

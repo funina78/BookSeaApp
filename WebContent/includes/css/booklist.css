@@ -1,0 +1,89 @@
+#monsters_content #body #right ul{
+    padding: 0;
+    margin: 0;
+    width: 680px;
+}
+#monsters_content #body #right ul li{
+    margin: 10px;
+    background: #fff;
+    width: 680px;
+    height: 170px;
+}
+
+#monsters_content #body #right ul li:hover{
+    background: #FBF6D3;
+}
+
+#monsters_content #body #right ul li .remove{
+    width: 10px;
+    float: right;
+}
+
+#monsters_content #body #right ul li .remove a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#monsters_content #body #right ul li .remove a:hover{
+    text-decoration: underline;
+}
+
+#monsters_content #body #right ul li img{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #898989;
+    float: left;
+}
+
+#monsters_content #body #right ul li p{
+    font-size: 12px;
+    color: #22387D;
+    margin: 2px;
+}
+#monsters_content #body #right ul li p.title{
+    padding: 14px;
+}
+
+#monsters_content #body #right ul li p.title a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #125292;
+}
+
+#monsters_content #body #right ul li p.title a:hover{
+    text-decoration: underline;
+    color: #5b7997;
+}
+
+#monsters_content #body #right ul li p.short_desc{
+    font-style: italic;
+    margin: 10px;
+}
+
+#monsters_content #body #right #pagination{
+    width: 60px;
+    height: 20px;
+}
+
+#monsters_content #body #right #pagination a{
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+#monsters_content #body #right #pagination #prev{
+    background: transparent url(../../includes/images/prev.png) no-repeat;
+}
+
+#monsters_content #body #right #pagination #next{
+    background: transparent url(../../includes/images/next.png) no-repeat;
+}
+#monsters_content #body #right #pagination #current{
+    text-align: center;
+}
+#monsters_content #body #right #pagination a span{
+    visibility: hidden;
+}

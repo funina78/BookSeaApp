@@ -1,0 +1,47 @@
+#monsters_content #body{
+    height: 750px;
+}
+
+#monsters_content #body #right #tab{
+    background: transparent url(../../includes/images/add_comment.png) no-repeat;
+    display: block;
+    width: 340px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#monsters_content #body #right #tab span{
+    visibility: hidden;
+}
+
+#monsters_content #body #right .view_recipe{
+    margin-top: -16px;
+}
+
+#monsters_content #body #right #comment_form{
+    width: 680px;
+    background-color: #fbf6d3;
+}
+
+#monsters_content #body #right #comment_form form{
+    width: 500px;
+    padding: 40px 70px;
+}
+
+#monsters_content #body #right #comment_form form p{
+    clear: both;
+}
+
+#monsters_content #body #right #comment_form form p input,
+#monsters_content #body #right #comment_form form p textarea{
+    float: right;
+}
+
+#monsters_content #body #right #comment_form form p input.text_area{
+    width: 30px;
+    margin-right: 381px;
+}
+
+#monsters_content #body #right #comment_form form p button{
+    float: right;
+}
