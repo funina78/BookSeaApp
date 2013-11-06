@@ -23,7 +23,7 @@ String description = r.getDescription();
 String image_path = "http://localhost:8081/BookSeaApp/includes/images/";
 %>
 <%@include file="/includes/header.jsp" %>
-<link href="includes/css/viewrecipe.css" rel="stylesheet" type="text/css">
+<link href="includes/css/viewbook.css" rel="stylesheet" type="text/css">
 <link href="includes/css/addcomment.css" rel="stylesheet" type="text/css">
 <div id="body">
     <%@include file="/includes/menu.jsp" %>
